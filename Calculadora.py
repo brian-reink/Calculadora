@@ -12,7 +12,7 @@
 import sys
 from Encontrar_Parentesis import encontrar_pts
 
-Valid_Operators = "0123456789-+*^/()"
+Valid_Operators = "0123456789-+*^/()."
 cadena_principal = input("Buen día, porfavor ingrese su operación matemática: ")
 for char in cadena_principal:
     if char not in Valid_Operators:
