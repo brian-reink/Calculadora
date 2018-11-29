@@ -2,7 +2,8 @@
 ## Procedimiento:
 ![imag](https://user-images.githubusercontent.com/28718644/49244619-fbf98580-f3ee-11e8-9657-9a8d7c1c0225.jpg)
 
-![imag2](https://user-images.githubusercontent.com/28718644/49250268-2f431100-f3fd-11e8-9ece-541c837737ea.png)
+![imag2](https://user-images.githubusercontent.com/28718644/49250407-80530500-f3fd-11e8-8bcd-84686aee7b7e.png)
+
 
 ## Explicación:
 Este primer proyecto fue realizado con conocimientos básicos de programación.<br />
