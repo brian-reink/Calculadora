@@ -33,12 +33,12 @@ El proceso sigue hasta que ya no queden expresiones por resolver. Para que no se
 
 ## Aclaración Caso 2 y Caso 3 en *Encontrar_Parentesis*
 
-
+![imag3](https://user-images.githubusercontent.com/28718644/49251465-29026400-f400-11e8-807c-43d354344c19.png)
                 
-Ambos casos tienen la misma lógica dentro de ellos, pero no son lo mismo. 
--Caso 2: Aplica siempre que encontremos algo de este estilo: (((2+3)*4)/2)+2 es decir cuando sólo hay, dentro del string, apertura y
-cierre múltiple de paréntesis.
--Caso 3: Esta pensado para estos casos: `(2+3)*(2+4)`, pero también resuelve correctamente `(((2+3)*4)/2)+(2+4)`. Es decir entrará a este `elif` porque hay una apertura de paréntesis luego del cierre final de los múltiples pero termina resolviendo el `(2+3)` debido
+Ambos casos tienen la misma lógica dentro de ellos, pero no son lo mismo.<br />
+- Caso 2: Aplica siempre que encontremos algo de este estilo: `(((2+3)*4)/2)+2` es decir cuando sólo hay, dentro del string, apertura y
+cierre múltiple de paréntesis.<br />
+- Caso 3: Esta pensado para estos casos: `(2+3)*(2+4)`, pero también resuelve correctamente `(((2+3)*4)/2)+(2+4)`. Es decir entrará a este `elif` porque hay una apertura de paréntesis luego del cierre final de los múltiples pero termina resolviendo el `(2+3)` debido
 a la lógica dentro de este caso. **Si no se abriera un nuevo par de paréntesis el caso que corresponde a los múltiples es el `Caso 2`**
 
 ### Autor: Brian Reinke.  Versión: 1.0.0
