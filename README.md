@@ -31,5 +31,14 @@ las posiciones de estos dentro del ***nuevo string*** (O sea, que las posiciones
 El proceso sigue hasta que ya no queden expresiones por resolver. Para que no se entre en un loop infinito se utilizaron flags. 
 `fin_calculo = True`.
 
+## Aclaración Caso 2 y Caso 3 en *Encontrar_Parentesis*
+
+
+                
+Ambos casos tienen la misma lógica dentro de ellos, pero no son lo mismo. 
+-Caso 2: Aplica siempre que encontremos algo de este estilo: (((2+3)*4)/2)+2 es decir cuando sólo hay, dentro del string, apertura y
+cierre múltiple de paréntesis.
+-Caso 3: Esta pensado para estos casos: `(2+3)*(2+4)`, pero también resuelve correctamente `(((2+3)*4)/2)+(2+4)`. Es decir entrará a este `elif` porque hay una apertura de paréntesis luego del cierre final de los múltiples pero termina resolviendo el `(2+3)` debido
+a la lógica dentro de este caso. **Si no se abriera un nuevo par de paréntesis el caso que corresponde a los múltiples es el `Caso 2`**
 
 ### Autor: Brian Reinke.  Versión: 1.0.0
