@@ -1,4 +1,5 @@
 from Resolver_Cuenta import resolver
+import sys
 
 def encontrar_pts(string):
     i = 0

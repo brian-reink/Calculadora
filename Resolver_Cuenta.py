@@ -1,3 +1,5 @@
+import sys
+
 def resolver(aux):
     Vec_Num = []
     Vec_Sym = []
@@ -50,7 +52,7 @@ def resolver(aux):
                 Vec_Sym.remove(Simbolos[i])
             except ZeroDivisionError:
                 sys.exit("Divisón por cero")
-            except ValueError:      #Cuando no encuentra el símbolo en cuestión paso al siguiente símbolo.
+            except ValueError:      # Cuando no encuentra el símbolo en cuestión paso al siguiente símbolo.
                 i = i + 1
 
         condicion = 1
